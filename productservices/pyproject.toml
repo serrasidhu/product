@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "product curd operation"
+version = "0.1.0"
+description = ""
+authors = ["Sara Murtaza <gm776446@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.4"
+uvicorn = "^0.32.0"
+pytest = "^8.3.3"
+pydantic = "^2.9.2"
+sqlalchemy = "^2.0.36"
+sqlmodel = "^0.0.22"
+psycopg2 = {extras = ["binary"], version = "^2.9.10"}
+aiokafka = "^0.12.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
